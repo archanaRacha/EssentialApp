@@ -49,8 +49,32 @@ class FeedLoaderWithFallbackCompositeTests:XCTestCase{
         wait(for: [exp],timeout: 1)
         
     }
+    func test_load_deliversFallbackFeedOnPrimaryLoaderFailure() {
+        let fallbackFeed = uniqueFeed()
+        
+        let primaryLoader = LoaderStub(result: .failure(anyNSError()))
+        let fallbackLoader = LoaderStub(result: .success(fallbackFeed))
+        
+        let sut = FeedLoaderWithFallbackComposite(primary:primaryLoader,fallback:fallbackLoader)
+        let exp = expectation(description: "wait for load completion")
+        sut.load{ result in
+            switch result {
+            case let .success(receivedFeed):
+                XCTAssertEqual(receivedFeed, fallbackFeed)
+                break
+            case .failure:
+                XCTFail("Expected successful load feed result, got \(result) instead")
+            }
+            exp.fulfill()
+        }
+        wait(for: [exp],timeout: 1)
+        
+    }
     private func uniqueFeed() -> [FeedImage] {
         return [FeedImage(id: UUID(), description: "any", location: "any", url: URL(string: "http://any-url.com")!)]
+    }
+    private func anyNSError() -> NSError{
+        return NSError(domain: "any error", code: 0)
     }
     private class LoaderStub : FeedLoader {
         
