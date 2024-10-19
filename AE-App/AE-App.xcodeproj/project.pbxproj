@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67602E422CC2363800080FD4 /* AE_Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E412CC2363800080FD4 /* AE_Feed.framework */; };
+		67602E432CC2363800080FD4 /* AE_Feed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E412CC2363800080FD4 /* AE_Feed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		67602E462CC2363D00080FD4 /* AEFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E452CC2363D00080FD4 /* AEFeediOS.framework */; };
+		67602E472CC2363D00080FD4 /* AEFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E452CC2363D00080FD4 /* AEFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		676947622CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676947612CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift */; };
 		678C5C3C2CBEBFA9000208C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C5C3B2CBEBFA9000208C8 /* AppDelegate.swift */; };
 		678C5C3E2CBEBFA9000208C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C5C3D2CBEBFA9000208C8 /* SceneDelegate.swift */; };
 		678C5C402CBEBFA9000208C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C5C3F2CBEBFA9000208C8 /* ViewController.swift */; };
 		678C5C432CBEBFA9000208C8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 678C5C422CBEBFA9000208C8 /* Base */; };
 		678C5C452CBEBFAB000208C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678C5C442CBEBFAB000208C8 /* Assets.xcassets */; };
 		678C5C482CBEBFAB000208C8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 678C5C472CBEBFAB000208C8 /* Base */; };
-		678C5C532CBEBFAB000208C8 /* AE_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C5C522CBEBFAB000208C8 /* AE_AppTests.swift */; };
 		678C5C5D2CBEBFAB000208C8 /* AE_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C5C5C2CBEBFAB000208C8 /* AE_AppUITests.swift */; };
 		678C5C5F2CBEBFAB000208C8 /* AE_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C5C5E2CBEBFAB000208C8 /* AE_AppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -35,7 +39,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		67602E442CC2363800080FD4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				67602E472CC2363D00080FD4 /* AEFeediOS.framework in Embed Frameworks */,
+				67602E432CC2363800080FD4 /* AE_Feed.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		67602E3A2CC2286100080FD4 /* AEFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67602E3E2CC2286500080FD4 /* AE_Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AE_Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67602E412CC2363800080FD4 /* AE_Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AE_Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67602E452CC2363D00080FD4 /* AEFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		676947612CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWithLocalFallbackFeedLoaderTests.swift; sourceTree = "<group>"; };
 		678C5C382CBEBFA9000208C8 /* AE-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AE-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		678C5C3B2CBEBFA9000208C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		678C5C3D2CBEBFA9000208C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +69,6 @@
 		678C5C472CBEBFAB000208C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		678C5C492CBEBFAB000208C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		678C5C4E2CBEBFAB000208C8 /* AE-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AE-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		678C5C522CBEBFAB000208C8 /* AE_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AE_AppTests.swift; sourceTree = "<group>"; };
 		678C5C582CBEBFAB000208C8 /* AE-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AE-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		678C5C5C2CBEBFAB000208C8 /* AE_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AE_AppUITests.swift; sourceTree = "<group>"; };
 		678C5C5E2CBEBFAB000208C8 /* AE_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AE_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -56,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67602E462CC2363D00080FD4 /* AEFeediOS.framework in Frameworks */,
+				67602E422CC2363800080FD4 /* AE_Feed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +101,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67602E392CC2286100080FD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67602E452CC2363D00080FD4 /* AEFeediOS.framework */,
+				67602E412CC2363800080FD4 /* AE_Feed.framework */,
+				67602E3E2CC2286500080FD4 /* AE_Feed.framework */,
+				67602E3A2CC2286100080FD4 /* AEFeediOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		678C5C2F2CBEBFA9000208C8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +119,7 @@
 				678C5C512CBEBFAB000208C8 /* AE-AppTests */,
 				678C5C5B2CBEBFAB000208C8 /* AE-AppUITests */,
 				678C5C392CBEBFA9000208C8 /* Products */,
+				67602E392CC2286100080FD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,7 +150,7 @@
 		678C5C512CBEBFAB000208C8 /* AE-AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				678C5C522CBEBFAB000208C8 /* AE_AppTests.swift */,
+				676947612CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift */,
 			);
 			path = "AE-AppTests";
 			sourceTree = "<group>";
@@ -137,6 +174,7 @@
 				678C5C342CBEBFA9000208C8 /* Sources */,
 				678C5C352CBEBFA9000208C8 /* Frameworks */,
 				678C5C362CBEBFA9000208C8 /* Resources */,
+				67602E442CC2363800080FD4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				678C5C532CBEBFAB000208C8 /* AE_AppTests.swift in Sources */,
+				676947622CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
