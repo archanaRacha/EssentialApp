@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		671D16352CC3C68B00D64792 /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671D16342CC3C68B00D64792 /* FeedLoaderWithFallbackComposite.swift */; };
 		67602E422CC2363800080FD4 /* AE_Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E412CC2363800080FD4 /* AE_Feed.framework */; };
 		67602E432CC2363800080FD4 /* AE_Feed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E412CC2363800080FD4 /* AE_Feed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		67602E462CC2363D00080FD4 /* AEFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E452CC2363D00080FD4 /* AEFeediOS.framework */; };
@@ -55,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		671D16342CC3C68B00D64792 /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		67602E3A2CC2286100080FD4 /* AEFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67602E3E2CC2286500080FD4 /* AE_Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AE_Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67602E412CC2363800080FD4 /* AE_Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AE_Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 				678C5C3B2CBEBFA9000208C8 /* AppDelegate.swift */,
 				678C5C3D2CBEBFA9000208C8 /* SceneDelegate.swift */,
 				678C5C3F2CBEBFA9000208C8 /* ViewController.swift */,
+				671D16342CC3C68B00D64792 /* FeedLoaderWithFallbackComposite.swift */,
 				678C5C412CBEBFA9000208C8 /* Main.storyboard */,
 				678C5C442CBEBFAB000208C8 /* Assets.xcassets */,
 				678C5C462CBEBFAB000208C8 /* LaunchScreen.storyboard */,
@@ -298,6 +301,7 @@
 			files = (
 				678C5C402CBEBFA9000208C8 /* ViewController.swift in Sources */,
 				678C5C3C2CBEBFA9000208C8 /* AppDelegate.swift in Sources */,
+				671D16352CC3C68B00D64792 /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				678C5C3E2CBEBFA9000208C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
