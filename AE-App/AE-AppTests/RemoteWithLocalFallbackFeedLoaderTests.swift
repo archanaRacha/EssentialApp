@@ -10,11 +10,20 @@ import AE_Feed
 
 class FeedLoaderWithFallbackComposite {
     private let primary : FeedLoader
+    private let fallback: FeedLoader
     init(primary:FeedLoader,fallback:FeedLoader){
         self.primary = primary
+        self.fallback = fallback
     }
     func load(completion:@escaping(FeedLoader.Result) -> Void){
-        primary.load(completion: completion)
+        primary.load {[weak self] result in
+            switch result {
+            case .success:
+                completion(result)
+            case .failure:
+                self?.fallback.load(completion: completion)
+            }
+        }
     }
 }
 class FeedLoaderWithFallbackCompositeTests:XCTestCase{
