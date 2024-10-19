@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		671D16352CC3C68B00D64792 /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671D16342CC3C68B00D64792 /* FeedLoaderWithFallbackComposite.swift */; };
+		671D16372CC3D02500D64792 /* LocalWithRemoteFallbackFeedImageDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671D16362CC3D02500D64792 /* LocalWithRemoteFallbackFeedImageDataLoaderTests.swift */; };
 		67602E422CC2363800080FD4 /* AE_Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E412CC2363800080FD4 /* AE_Feed.framework */; };
 		67602E432CC2363800080FD4 /* AE_Feed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E412CC2363800080FD4 /* AE_Feed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		67602E462CC2363D00080FD4 /* AEFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E452CC2363D00080FD4 /* AEFeediOS.framework */; };
@@ -57,6 +58,7 @@
 
 /* Begin PBXFileReference section */
 		671D16342CC3C68B00D64792 /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
+		671D16362CC3D02500D64792 /* LocalWithRemoteFallbackFeedImageDataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalWithRemoteFallbackFeedImageDataLoaderTests.swift; sourceTree = "<group>"; };
 		67602E3A2CC2286100080FD4 /* AEFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67602E3E2CC2286500080FD4 /* AE_Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AE_Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67602E412CC2363800080FD4 /* AE_Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AE_Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				676947612CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift */,
+				671D16362CC3D02500D64792 /* LocalWithRemoteFallbackFeedImageDataLoaderTests.swift */,
 			);
 			path = "AE-AppTests";
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671D16372CC3D02500D64792 /* LocalWithRemoteFallbackFeedImageDataLoaderTests.swift in Sources */,
 				676947622CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
