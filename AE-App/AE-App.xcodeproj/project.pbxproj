@@ -16,6 +16,7 @@
 		67602E432CC2363800080FD4 /* AE_Feed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E412CC2363800080FD4 /* AE_Feed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		67602E462CC2363D00080FD4 /* AEFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E452CC2363D00080FD4 /* AEFeediOS.framework */; };
 		67602E472CC2363D00080FD4 /* AEFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 67602E452CC2363D00080FD4 /* AEFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		67605C462CC67E72000E2226 /* FeedLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67605C452CC67E72000E2226 /* FeedLoaderCacheDecoratorTests.swift */; };
 		676947622CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676947612CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift */; };
 		678C5C3C2CBEBFA9000208C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C5C3B2CBEBFA9000208C8 /* AppDelegate.swift */; };
 		678C5C3E2CBEBFA9000208C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C5C3D2CBEBFA9000208C8 /* SceneDelegate.swift */; };
@@ -69,6 +70,7 @@
 		67602E3E2CC2286500080FD4 /* AE_Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AE_Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67602E412CC2363800080FD4 /* AE_Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AE_Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67602E452CC2363D00080FD4 /* AEFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67605C452CC67E72000E2226 /* FeedLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 		676947612CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWithLocalFallbackFeedLoaderTests.swift; sourceTree = "<group>"; };
 		678C5C382CBEBFA9000208C8 /* AE-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AE-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		678C5C3B2CBEBFA9000208C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			children = (
 				676947612CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift */,
 				671D16362CC3D02500D64792 /* LocalWithRemoteFallbackFeedImageDataLoaderTests.swift */,
+				67605C452CC67E72000E2226 /* FeedLoaderCacheDecoratorTests.swift */,
 				6734B0F42CC5255D00C3B44E /* Helpers */,
 			);
 			path = "AE-AppTests";
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6734B0F82CC5264000C3B44E /* SharedTestHelpers.swift in Sources */,
+				67605C462CC67E72000E2226 /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				671D16372CC3D02500D64792 /* LocalWithRemoteFallbackFeedImageDataLoaderTests.swift in Sources */,
 				676947622CC39CF300744F54 /* RemoteWithLocalFallbackFeedLoaderTests.swift in Sources */,
 				6734B0F62CC5258C00C3B44E /* XCTestCase+MemoryLeakTracking.swift in Sources */,
