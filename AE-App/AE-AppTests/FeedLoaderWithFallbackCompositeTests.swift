@@ -9,7 +9,7 @@ import XCTest
 import AE_Feed
 import AE_App
 
-class FeedLoaderWithFallbackCompositeTests:XCTestCase{
+class FeedLoaderWithFallbackCompositeTests:XCTestCase,FeedLoaderTestCase{
     func test_load_deliversPrimaryFeedOnPrimarySuccess() {
         let primaryFeed = uniqueFeed()
         let fallbackFeed = uniqueFeed()
