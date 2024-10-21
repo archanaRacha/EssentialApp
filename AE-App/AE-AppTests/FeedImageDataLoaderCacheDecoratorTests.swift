@@ -86,6 +86,17 @@ class FeedImageDataLoaderCacheDecoratorTests: XCTestCase , FeedImageDataLoaderTe
 
             XCTAssertTrue(cache.messages.isEmpty, "Expected not to cache image data on load error")
         }
+    func test_loadImageData_cachesLoadedDataOnLoaderSuccess() {
+        let cache = CacheSpy()
+        let url = anyURL()
+        let imageData = anyData()
+        let (sut, loader) = makeSUT(cache: cache)
+
+        _ = sut.loadImageData(from: url) { _ in }
+        loader.complete(with: imageData)
+
+        XCTAssertEqual(cache.messages, [.save(data: imageData, for: url)], "Expected to cache loaded image data on success")
+    }
 
 
     // MARK: - Helpers
