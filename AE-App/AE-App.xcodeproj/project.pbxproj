@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		671D16352CC3C68B00D64792 /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671D16342CC3C68B00D64792 /* FeedLoaderWithFallbackComposite.swift */; };
 		671D16372CC3D02500D64792 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671D16362CC3D02500D64792 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */; };
+		672B2C1F2D01C9FF004195BE /* AEFeedAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672B2C1E2D01C9FF004195BE /* AEFeedAPI.framework */; };
+		672B2C202D01C9FF004195BE /* AEFeedAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 672B2C1E2D01C9FF004195BE /* AEFeedAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6734B0F32CC5245E00C3B44E /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734B0F22CC5245E00C3B44E /* FeedImageDataLoaderWithFallbackComposite.swift */; };
 		6734B0F62CC5258C00C3B44E /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734B0F52CC5258C00C3B44E /* XCTestCase+MemoryLeakTracking.swift */; };
 		6734B0F82CC5264000C3B44E /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734B0F72CC5264000C3B44E /* SharedTestHelpers.swift */; };
@@ -28,13 +30,13 @@
 		678C5C3C2CBEBFA9000208C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C5C3B2CBEBFA9000208C8 /* AppDelegate.swift */; };
 		678C5C3E2CBEBFA9000208C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C5C3D2CBEBFA9000208C8 /* SceneDelegate.swift */; };
 		678C5C402CBEBFA9000208C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C5C3F2CBEBFA9000208C8 /* ViewController.swift */; };
-		678C5C432CBEBFA9000208C8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 678C5C422CBEBFA9000208C8 /* Base */; };
 		678C5C452CBEBFAB000208C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678C5C442CBEBFAB000208C8 /* Assets.xcassets */; };
 		678C5C482CBEBFAB000208C8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 678C5C472CBEBFAB000208C8 /* Base */; };
 		6797D0542CCA11F100D51426 /* FeedLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6797D0532CCA11F100D51426 /* FeedLoaderCacheDecorator.swift */; };
 		67A2D1F42CDDDA23007766DB /* AE_AppUIAcceptenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2D1F32CDDDA23007766DB /* AE_AppUIAcceptenceTests.swift */; };
 		67A2D1F62CDDDA23007766DB /* AE_AppUIAcceptenceTestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2D1F52CDDDA23007766DB /* AE_AppUIAcceptenceTestsLaunchTests.swift */; };
 		67D99FCE2CF355050041B58A /* AE-AppUIAcceptenceTests.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 67D99FCD2CF355050041B58A /* AE-AppUIAcceptenceTests.xctestplan */; };
+		67DCA3342D045465007985DD /* SceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DCA3332D045465007985DD /* SceneDelegateTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,7 @@
 			files = (
 				67602E472CC2363D00080FD4 /* AEFeediOS.framework in Embed Frameworks */,
 				67602E432CC2363800080FD4 /* AE_Feed.framework in Embed Frameworks */,
+				672B2C202D01C9FF004195BE /* AEFeedAPI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +75,7 @@
 /* Begin PBXFileReference section */
 		671D16342CC3C68B00D64792 /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		671D16362CC3D02500D64792 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
+		672B2C1E2D01C9FF004195BE /* AEFeedAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEFeedAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6734B0F22CC5245E00C3B44E /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		6734B0F52CC5258C00C3B44E /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		6734B0F72CC5264000C3B44E /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
@@ -91,10 +95,12 @@
 		67605C472CC6AF2C000E2226 /* FeedLoaderStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderStub.swift; sourceTree = "<group>"; };
 		67605C492CC6B132000E2226 /* XCTestCase+FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedLoader.swift"; sourceTree = "<group>"; };
 		676947612CC39CF300744F54 /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
+		677D6FE52CFECC320005A98B /* AEFeedAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEFeedAPI.h; sourceTree = "<group>"; };
+		677D6FE62CFECC330005A98B /* AEFeedAPI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AEFeedAPI.docc; sourceTree = "<group>"; };
+		677D6FF32CFECC330005A98B /* AEFeedAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEFeedAPITests.swift; sourceTree = "<group>"; };
 		678C5C3B2CBEBFA9000208C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		678C5C3D2CBEBFA9000208C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		678C5C3F2CBEBFA9000208C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		678C5C422CBEBFA9000208C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		678C5C442CBEBFAB000208C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		678C5C472CBEBFAB000208C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		678C5C492CBEBFAB000208C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,6 +110,7 @@
 		67A2D1F32CDDDA23007766DB /* AE_AppUIAcceptenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AE_AppUIAcceptenceTests.swift; sourceTree = "<group>"; };
 		67A2D1F52CDDDA23007766DB /* AE_AppUIAcceptenceTestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AE_AppUIAcceptenceTestsLaunchTests.swift; sourceTree = "<group>"; };
 		67D99FCD2CF355050041B58A /* AE-AppUIAcceptenceTests.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "AE-AppUIAcceptenceTests.xctestplan"; path = "../../../../AE-AppUIAcceptenceTests.xctestplan"; sourceTree = "<group>"; };
+		67DCA3332D045465007985DD /* SceneDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +120,7 @@
 			files = (
 				67602E462CC2363D00080FD4 /* AEFeediOS.framework in Frameworks */,
 				67602E422CC2363800080FD4 /* AE_Feed.framework in Frameworks */,
+				672B2C1F2D01C9FF004195BE /* AEFeedAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				6734B0F52CC5258C00C3B44E /* XCTestCase+MemoryLeakTracking.swift */,
+				67DCA3332D045465007985DD /* SceneDelegateTests.swift */,
 				6734B0F72CC5264000C3B44E /* SharedTestHelpers.swift */,
 				67605C472CC6AF2C000E2226 /* FeedLoaderStub.swift */,
 				675CA5342CC6C036000AB219 /* FeedImageDataLoaderSpy.swift */,
@@ -149,12 +158,30 @@
 		67602E392CC2286100080FD4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				672B2C1E2D01C9FF004195BE /* AEFeedAPI.framework */,
 				67602E452CC2363D00080FD4 /* AEFeediOS.framework */,
 				67602E412CC2363800080FD4 /* AE_Feed.framework */,
 				67602E3E2CC2286500080FD4 /* AE_Feed.framework */,
 				67602E3A2CC2286100080FD4 /* AEFeediOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		677D6FE42CFECC320005A98B /* AEFeedAPI */ = {
+			isa = PBXGroup;
+			children = (
+				677D6FE52CFECC320005A98B /* AEFeedAPI.h */,
+				677D6FE62CFECC330005A98B /* AEFeedAPI.docc */,
+			);
+			path = AEFeedAPI;
+			sourceTree = "<group>";
+		};
+		677D6FF22CFECC330005A98B /* AEFeedAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				677D6FF32CFECC330005A98B /* AEFeedAPITests.swift */,
+			);
+			path = AEFeedAPITests;
 			sourceTree = "<group>";
 		};
 		678C5C2F2CBEBFA9000208C8 = {
@@ -164,6 +191,8 @@
 				678C5C512CBEBFAB000208C8 /* AE-AppTests */,
 				678C5C5B2CBEBFAB000208C8 /* AE-AppUITests */,
 				67A2D1F22CDDDA23007766DB /* AE-AppUIAcceptenceTests */,
+				677D6FE42CFECC320005A98B /* AEFeedAPI */,
+				677D6FF22CFECC330005A98B /* AEFeedAPITests */,
 				67602E392CC2286100080FD4 /* Frameworks */,
 				67515D452CF4238600248844 /* AE-App.app */,
 				67515D462CF4238600248844 /* AE-AppTests.xctest */,
@@ -182,7 +211,6 @@
 				6734B0F22CC5245E00C3B44E /* FeedImageDataLoaderWithFallbackComposite.swift */,
 				675CA53A2CC6CC89000AB219 /* FeedImageDataLoaderCacheDecorator.swift */,
 				6797D0532CCA11F100D51426 /* FeedLoaderCacheDecorator.swift */,
-				678C5C412CBEBFA9000208C8 /* Main.storyboard */,
 				678C5C442CBEBFAB000208C8 /* Assets.xcassets */,
 				678C5C462CBEBFAB000208C8 /* LaunchScreen.storyboard */,
 				678C5C492CBEBFAB000208C8 /* Info.plist */,
@@ -328,7 +356,6 @@
 			files = (
 				678C5C452CBEBFAB000208C8 /* Assets.xcassets in Resources */,
 				678C5C482CBEBFAB000208C8 /* Base in Resources */,
-				678C5C432CBEBFA9000208C8 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +400,7 @@
 				675CA5332CC6BBF9000AB219 /* FeedImageDataLoaderCacheDecoratorTests.swift in Sources */,
 				67605C4A2CC6B132000E2226 /* XCTestCase+FeedLoader.swift in Sources */,
 				675CA5372CC6C374000AB219 /* XCTestCase+FeedImageDataLoader.swift in Sources */,
+				67DCA3342D045465007985DD /* SceneDelegateTests.swift in Sources */,
 				67605C462CC67E72000E2226 /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				675CA5352CC6C036000AB219 /* FeedImageDataLoaderSpy.swift in Sources */,
 				671D16372CC3D02500D64792 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
@@ -407,14 +435,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		678C5C412CBEBFA9000208C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				678C5C422CBEBFA9000208C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		678C5C462CBEBFAB000208C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -557,7 +577,7 @@
 				INFOPLIST_FILE = "AE-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -585,7 +605,7 @@
 				INFOPLIST_FILE = "AE-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
