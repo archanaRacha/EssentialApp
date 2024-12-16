@@ -8,7 +8,7 @@
 import UIKit
 import AEFeediOS
 
-extension FeedImageCell {
+public extension FeedImageCell {
     var isShowingLocation: Bool {
         return !locationContainer.isHidden
     }
